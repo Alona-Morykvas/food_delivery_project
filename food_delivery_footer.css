@@ -1,0 +1,32 @@
+.footer_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1210px;
+  width: 100%;
+  padding: 64px 0 51px 0;
+}
+
+.footer_logo {
+  max-width: 246px;
+  width: 100%;
+}
+
+.middle_flex {
+  display: flex;
+  justify-content: space-between;
+  max-width: 162px;
+  align-items: center;
+  width: 100%;
+}
+
+.right_flex_side p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: right;
+  letter-spacing: 0.1px;
+  color: #5C5C5C;
+}
