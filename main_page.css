@@ -1,0 +1,238 @@
+.food_img_background {
+  background-image: url(./Images/Rectangle\ 48.svg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center center;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.food_img_flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 73px 0 146px 0;
+}
+
+.food_img_flex_child {
+  color:rgba(255, 255, 255, 1);
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 24px;
+  text-align: center;
+}
+
+.food_img_flex_child p {
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  margin: 0;
+}
+
+.food_img_flex_child h1 {
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+}
+
+.food_img_flex_child h4 {
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+}
+
+.food_img_button_flex {
+  display: flex;
+  justify-content: space-between;
+  max-width: 506px;
+  width: 100%;
+  align-items: center;
+}
+
+.food_img_button_flex button {
+  width: 236px;
+  height: 68px;
+  border-radius: 30px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+  z-index: 1000;
+}
+.big_button {
+  background-color: transparent;
+  border: 1px solid  rgba(255, 255, 255, 1);
+  outline:none;
+}
+.orange_big_button {
+  background-color: rgba(250, 74, 12, 1);
+  border: 1px solid rgba(250, 74, 12, 1);
+  outline:none;
+  box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+}
+
+/* Second section */
+.main_flex {
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: center;
+  
+}
+
+.position {
+  max-height: 630px;
+} 
+
+.phone_img {
+  max-width: 640px;
+  width: 100%;
+  position: relative;
+  top: -280px;
+  left: -80px;
+}
+
+.underline {
+ border-bottom: 5px solid rgba(228, 228, 228, 1);
+  width: 55%;
+}
+
+.title_instruction {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 36px;
+  font-family: 'Poppins';
+  letter-spacing: 0.1px;
+  margin: 72.09px 0 0 0;
+  color: rgba(0, 0, 0, 1);
+  opacity: 0.8;
+}
+ 
+/* How the app works instructions */
+.app_instruction_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.instructions {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  max-width: 561px;
+  width: 100%;
+  padding-left: 130px;
+}
+
+.instructions h3 {
+  font-size: 24px;
+  line-height: 36px;
+  color: rgba(250, 74, 12, 1);
+  letter-spacing: 0.1px;
+}
+
+.instructions h2 {
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: rgb(37,43,66);
+}
+
+.instructions h4 {
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+  font-weight: 500;
+  color: rgb(115,115,115);
+}
+
+.down_food_background {
+  background-image: url(./header_footer_img/food_background_down.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+/* Down img section */
+.down_img_flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.first_title_img {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 145px;
+}
+
+.second_title_img {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: rgba(255, 255, 255, 1);
+  margin: 20px 0 0 0;
+}
+
+.down_button_flex {
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 0 131px 0;
+  max-width: 331px;
+  width: 100%;
+  align-items: center;
+}
+
+.orange_first_button {
+  font-family: 'Montserrat';
+  background-color: rgba(250, 74, 12, 1);
+  border: 1px solid rgba(250, 74, 12, 1);
+  border-radius: 10px;
+  padding: 18px 31px;
+  width: 142px;
+  height: 64px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
+
+.simple_second_button {
+  font-family: 'Montserrat';
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 1);
+  padding: 15px 45px;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
